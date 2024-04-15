@@ -51,7 +51,7 @@
   },
 
    # batch / data settings
-   "train_micro_batch_size_per_gpu": 4,
+   #"train_micro_batch_size_per_gpu": 32,
    "data_impl": "mmap",
 
    # activation checkpointing
@@ -92,5 +92,5 @@
    "wall_clock_breakdown": true,
 
   #  networking
-  "hostfile": "/mock_path"
+  "hostfile": "hostfile"
 }
